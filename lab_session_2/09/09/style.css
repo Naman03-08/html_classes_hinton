@@ -20,4 +20,52 @@
     font-size: larger;
     margin-top: auto;
     margin-bottom: auto;
+    text-decoration: none;
+    color: black;
+}
+
+#div1{
+    width: 1300px;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+#div2{
+    width: 1300px;
+    height: 1600px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+   
+}
+
+.subdiv{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    justify-content: start;
+}
+
+#div3{
+    margin-left: 0px;
+}
+
+#footer{
+    width: 1500px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 15px;
 }
