@@ -1,0 +1,19 @@
+/* #item-1{
+    color: red;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 2px hsl(0, 0%, 0%) dotted;
+    margin: 20px;
+}
+#item-2{
+    color: green;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 2px black solid;
+   margin: 20px;
+   box-sizing: border-box;
+} */
