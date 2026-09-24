@@ -1,0 +1,21 @@
+#section{
+    width: 400px;
+    height: 200px;
+    border: 2px black solid;
+    margin-left: 400px;
+    border-radius: 20px;
+}
+
+#image{
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 130px;
+    /* z-index: 1; */
+    /* display: inline-block; */
+}
+
+#text{
+    
+}
