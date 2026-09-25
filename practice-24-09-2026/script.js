@@ -8,6 +8,6 @@ else if(80 <= num <= 60){
 else if( 60<= num <= 40){
     console.log("you got C grade with marks:", num)
 }
-else if(num > 40){
+else{
     console.log("you grade is D with marks:", num)
 }
