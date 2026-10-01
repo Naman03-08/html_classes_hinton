@@ -24,6 +24,7 @@ body{
     background-color: gray;
     background-image: url(./Naman.jpeg);
     background-size: cover;
+    border-radius: 10px;
 }
 h2{
     text-align: center;
