@@ -3,33 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    height: 5000px;
-}
-.main_div{
-    height: 250px;
-    width: 250px;
-    border: 4px solid black;
+
+#name{
+    color: blue;
 }
 
-#div1{
-     display: flex;
-    position: relative;
-    left: 100px;
-    top: 100px;
-    z-index: 1;
+#class{
+    color: green;
 }
 
-#div2{
-    position: relative;
+#age{
+    color: orange;
 }
 
-#div3{
-    margin-top: 500px;
-    background-color: red;
-    height: 300px;
-    width: 300px;
-    margin-left: 100px;
-    position: sticky;
-    top: 0px;
+#collage{
+    color: purple;
+}
+
+div{
+    color: red;
 }
