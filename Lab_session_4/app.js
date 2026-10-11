@@ -1,3 +1,6 @@
+let n = "naman"
+
+
 // n = "naman"
 // if((n[0] == "n") && (n.length > 4)){
 //     console.log("good string")
