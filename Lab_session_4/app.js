@@ -1,5 +1,5 @@
 let n = "naman"
-
+console.log(n)
 
 // n = "naman"
 // if((n[0] == "n") && (n.length > 4)){
