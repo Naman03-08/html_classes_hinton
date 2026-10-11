@@ -1,0 +1,85 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe Form</title>
+</head>
+<body>
+
+    <div class="card">
+
+        <h1>Stay Updated!</h1>
+
+        <p class="subtitle">
+            Subscribe to our newsletter and receive the latest updates,
+            news, and exclusive offers directly in your inbox.
+        </p>
+
+        <form action="#" method="post">
+
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+            </div>
+
+            <div class="checkbox-group">
+
+                <label>What would you like to receive?</label>
+
+                <div class="checkbox-item">
+                    <input type="checkbox" id="news" name="preferences" value="news">
+                    <label for="news">Latest News &amp; Updates</label>
+                </div>
+
+                <div class="checkbox-item">
+                    <input type="checkbox" id="offers" name="preferences" value="offers">
+                    <label for="offers">Special Offers &amp; Discounts</label>
+                </div>
+
+                <div class="checkbox-item">
+                    <input type="checkbox" id="articles" name="preferences" value="articles">
+                    <label for="articles">Tips, Guides &amp; Articles</label>
+                </div>
+
+            </div>
+
+            <p class="note">
+                By subscribing, you agree to receive emails from us.
+                <b>Your privacy matters.</b>
+                <em>You can unsubscribe at any time.</em>
+            </p>
+
+            <button type="submit" class="subscribe-btn">
+                Subscribe Now
+            </button>
+
+            <p class="footer-text">
+                We respect your privacy. No spam, ever!
+            </p>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
+```
