@@ -5,5 +5,5 @@ if((n[0] == "n") && (n.length > 4)){
     console.log("not a good string")
 }
 
-firstName = prompt("enter your name: ")
-console.log(firstName)
+// firstName = prompt("enter your name: ")
+// console.log(firstName)
