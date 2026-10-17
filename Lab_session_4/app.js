@@ -10,3 +10,4 @@ console.log(n)
 
 // firstName = prompt("enter your name: ")
 // console.log(firstName)
+
