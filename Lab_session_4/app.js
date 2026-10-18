@@ -15,6 +15,10 @@
 // console.log(str)
 // console.log(str.trim())
 
-let str = "naman pandey"
+// let str = "naman pandey"
+// console.log(str)
+// console.log(str.toUpperCase())
+
+let str = "NAMAN PANDEY"
 console.log(str)
-console.log(str.toUpperCase())
+console.log(str.toLowerCase())
