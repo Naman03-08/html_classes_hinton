@@ -11,5 +11,6 @@
 // firstName = prompt("enter your name: ")
 // console.log(firstName)
 
-let str = "       naman        pandey"
+let str = "       naman pandey          "
 console.log(str)
+console.log(str.trim())
