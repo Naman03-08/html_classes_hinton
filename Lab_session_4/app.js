@@ -19,6 +19,9 @@
 // console.log(str)
 // console.log(str.toUpperCase())
 
-let str = "NAMAN PANDEY"
-console.log(str)
-console.log(str.toLowerCase())
+// let str = "NAMAN PANDEY"
+// console.log(str)
+// console.log(str.toLowerCase())
+
+let str = "naman pandey"
+console.log(str[11])
