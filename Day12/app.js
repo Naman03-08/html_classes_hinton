@@ -21,6 +21,10 @@
 // let arr1 = [["X", "", ""], ["", "X", ""], ["O", "", "X"]]
 
 // console.log(arr1)
-for (let i = 15; i >= 1; i -= 2) {
-    console.log(i);
+// for (let i = 15; i >= 1; i -= 2) {
+//     console.log(i);
+// }
+
+for(i = 10; i >= 0; i -= 2){
+    console.log(i)
 }
