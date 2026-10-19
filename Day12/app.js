@@ -35,9 +35,16 @@
 //     console.log(i);
 // }
 
-for(i = 1; i<=3; i++){
-    for(j = 1; j <= 3; j++){
-        console.log(j)
-    }
-    console.log(`loop over ${i}`)
+// for(i = 1; i<=3; i++){
+//     for(j = 1; j <= 3; j++){
+//         console.log(j)
+//     }
+//     console.log(`loop over ${i}`)
+// }
+
+i = 1
+while(i <= 3){
+    console.log(i)
+    i+= 1
 }
+console.log(i)
