@@ -35,3 +35,9 @@
 //     console.log(i);
 // }
 
+for(i = 1; i<=3; i++){
+    for(j = 1; j <= 3; j++){
+        console.log(j)
+    }
+    console.log(`loop over ${i}`)
+}
