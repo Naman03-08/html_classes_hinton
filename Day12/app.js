@@ -25,6 +25,6 @@
 //     console.log(i);
 // }
 
-for(i = 10; i >= 0; i -= 2){
+for(let i = 5; i<=50; i+=5){
     console.log(i)
 }
