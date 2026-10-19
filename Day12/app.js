@@ -42,9 +42,37 @@
 //     console.log(`loop over ${i}`)
 // }
 
-i = 1
-while(i <= 3){
-    console.log(i)
-    i+= 1
+// favMovie = "Marvels"
+// Name = prompt("enter movie name: ")
+// // while(favMovie != Name){
+// //     Name = prompt("you were wrong, please Try again")
+// // }
+// // console.log(`you guess is correct and the movie name is: ${Name}`)
+
+// if(favMovie == Name){
+//    console.log(`You are correct the movie name is ${favMovie}`)
+// }
+// else if(Name == "Quit"){
+//     console.log("you quit the game")
+// }
+
+// else if(favMovie != Name){
+//      while(favMovie != Name){
+//         prompt("you were wrong, please Try again: ")
+//     }
+// }
+
+favMovie = "marvels"
+guess = prompt("enter your guess:")
+
+while((favMovie != guess)&&(guess != "quit")){
+    console.log("wrong answer please try again")
+     guess = prompt("try again: ")
 }
-console.log(i)
+
+if(guess == "quit"){
+    console.log("you quit")
+}
+else if(guess == favMovie){
+    console.log("you got it correct")
+}
