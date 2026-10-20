@@ -94,11 +94,44 @@
 //     console.log(`list# ${i} compleated`)
 // }
 
-let arr = [["naman", "pandey"], ["yash", "raj"], ["aman", "kumar"]]
+// let arr = [["naman", "pandey"], ["yash", "raj"], ["aman", "kumar"]]
 
-for(user of arr){
-    console.log(user)
-    for(Name of user){
-        console.log(Name)
-    }
-}
+// for(user of arr){
+//     console.log(user)
+//     for(Name of user){
+//         console.log(Name)
+//     }
+// }
+
+// ----------------------------------------------------------------------->
+// let todo = []
+// let req = prompt("enter your request: ")
+
+// while(true){
+//     if(req == "quit"){
+//         console.log("you quit")
+//         break;
+//     }
+
+//     if(req == "list"){
+//         console.log("-------------------------")
+//         for(task of todo){
+//             console.log(task)
+//         }
+//         console.log("-------------------------")
+//     }else if(req == "add"){
+//         console.log("-------------------------")
+//         let add = prompt("enter what you want to add: ")
+//         todo.push(add)
+//         console.log("task added")
+//         console.log("-------------------------")
+//     }else if(req == "delete"){
+//         todo.pop()
+//         console.log("task deleted")
+//     }
+
+//     req = prompt("enter your request: ")
+// }
+
+// ----------------------------------------------------------------------->
+
