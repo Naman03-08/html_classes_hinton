@@ -84,12 +84,12 @@
 //     console.log(i, fruites[i])
 // }
 
-let heros = [["heman", "ironman", "spiderman"], ["wonderwomen", "thor", "antman"]]
+// let heros = [["heman", "ironman", "spiderman"], ["wonderwomen", "thor", "antman"]]
 
-for(i = 0; i<heros.length; i++){
-    console.log(`list# ${i}`)
-    for(j=0; j<heros[i].length; j++){
-        console.log(j, heros[i][j])
-    }
-    console.log(`list# ${i} compleated`)
-}
+// for(i = 0; i<heros.length; i++){
+//     console.log(`list# ${i}`)
+//     for(j=0; j<heros[i].length; j++){
+//         console.log(j, heros[i][j])
+//     }
+//     console.log(`list# ${i} compleated`)
+// }
