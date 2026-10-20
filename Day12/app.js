@@ -135,3 +135,9 @@
 
 // ----------------------------------------------------------------------->
 
+// let num = prompt("enter your number which you want to get counted: ")
+// while(num > 0){
+//     for(n of num){
+//         console.log()
+//     }
+// }
