@@ -62,17 +62,24 @@
 //     }
 // }
 
-favMovie = "marvels"
-guess = prompt("enter your guess:")
+// let favMovie = "Avangers";
+// let guess = prompt("guess ythe movie name: ")
 
-while((favMovie != guess)&&(guess != "quit")){
-    console.log("wrong answer please try again")
-     guess = prompt("try again: ")
-}
+// while(guess != favMovie){
+//     if(guess == "quit"){
+//         console.log("you quit")
+//         break;
+//     }
+//     console.log("wrong answer")
+//     guess = prompt("your guess was wrong, please try again: ")
+// }
 
-if(guess == "quit"){
-    console.log("you quit")
-}
-else if(guess == favMovie){
-    console.log("you got it correct")
+// if(guess == favMovie){
+//     console.log(`congrats you got it right, the movie name is ${guess}`)
+// }
+
+let fruites = ["mango", "apple", "orange", "banana", "papaya"]
+
+for(i = fruites.length - 1; i>=0; i--){
+    console.log(i, fruites[i])
 }
