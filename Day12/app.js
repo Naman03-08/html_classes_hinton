@@ -93,3 +93,12 @@
 //     }
 //     console.log(`list# ${i} compleated`)
 // }
+
+let arr = [["naman", "pandey"], ["yash", "raj"], ["aman", "kumar"]]
+
+for(user of arr){
+    console.log(user)
+    for(Name of user){
+        console.log(Name)
+    }
+}
