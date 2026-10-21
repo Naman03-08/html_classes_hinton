@@ -141,3 +141,15 @@
 //         console.log()
 //     }
 // }
+let firstName = "naman"
+let lastName = "pandey"
+let total = 12;
+let tax = 13
+console.log(firstName + " " + lastName)
+let num = BigInt(48)
+console.log(typeof(num))
+let num2 = 48
+num2.toLocaleString()
+console.log(num === num2)
+
+console.log(true == 2)
