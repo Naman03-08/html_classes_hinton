@@ -141,15 +141,34 @@
 //         console.log()
 //     }
 // }
-let firstName = "naman"
-let lastName = "pandey"
-let total = 12;
-let tax = 13
-console.log(firstName + " " + lastName)
-let num = BigInt(48)
-console.log(typeof(num))
-let num2 = 48
-num2.toLocaleString()
-console.log(num === num2)
+// let firstName = "naman"
+// let lastName = "pandey"
+// let total = 12;
+// let tax = 13
+// console.log(firstName + " " + lastName)
+// let num = BigInt(48)
+// console.log(typeof(num))
+// let num2 = 48
+// num2.toLocaleString()
+// console.log(num === num2)
 
-console.log(true == 2)
+// console.log(true == 2)
+
+let num = prompt("enter the max number: ")
+let req = prompt("enter youe guess now: ")
+let maxNum = (Math.floor(Math.random()*num) + 1);
+while(true){
+    if(req == "quit"){
+        console.log("you quit!!")
+        break;
+    }
+
+    if(req == maxNum){
+        console.log(`Congrats the number was ${maxNum}`)
+        break;
+    }else if(req > maxNum){
+        req = prompt("Hint: you guess was too big please try to enter some small value: ")
+    }else if(req < maxNum){
+        req = prompt("Hint: you guess was too small please try to enter some big value: ")
+    }
+}
