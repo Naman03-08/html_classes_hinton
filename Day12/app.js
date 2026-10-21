@@ -154,21 +154,21 @@
 
 // console.log(true == 2)
 
-let num = prompt("enter the max number: ")
-let req = prompt("enter youe guess now: ")
-let maxNum = (Math.floor(Math.random()*num) + 1);
-while(true){
-    if(req == "quit"){
-        console.log("you quit!!")
-        break;
-    }
+// let num = prompt("enter the max number: ")
+// let req = prompt("enter youe guess now: ")
+// let maxNum = (Math.floor(Math.random()*num) + 1);
+// while(true){
+//     if(req == "quit"){
+//         console.log("you quit!!")
+//         break;
+//     }
 
-    if(req == maxNum){
-        console.log(`Congrats the number was ${maxNum}`)
-        break;
-    }else if(req > maxNum){
-        req = prompt("Hint: you guess was too big please try to enter some small value: ")
-    }else if(req < maxNum){
-        req = prompt("Hint: you guess was too small please try to enter some big value: ")
-    }
-}
+//     if(req == maxNum){
+//         console.log(`Congrats the number was ${maxNum}`)
+//         break;
+//     }else if(req > maxNum){
+//         req = prompt("Hint: you guess was too big please try to enter some small value: ")
+//     }else if(req < maxNum){
+//         req = prompt("Hint: you guess was too small please try to enter some big value: ")
+//     }
+// }
