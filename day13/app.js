@@ -27,3 +27,16 @@
 // student = { name: "Someone Else" };
 // console.log(student)
 
+const fruitName = ["mango", "grapes"]
+
+console.log(fruitName)
+
+const fruites = {
+    0: "mango", 
+    1: "grapes",
+    2: ["mango", "apple"],
+}
+console.group(fruites)
+
+console.group(typeof(fruites))
+console.group(typeof(fruitName))
