@@ -38,4 +38,5 @@ console.log(typeof(student))
 // let a2 = "hello";
 // console.log(a1 === a2)
 
-student[1].country = "India"
+country = student[1].country = "India"
+console.log(student)
