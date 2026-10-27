@@ -40,3 +40,11 @@
 
 // console.group(typeof(fruites))
 // console.group(typeof(fruitName))
+
+
+let arr1 = [1]
+let arr2 = [1]
+let Name = "naman"
+let name2 = "naman"
+console.log(arr1 === arr2)
+console.log(Name === name2)
