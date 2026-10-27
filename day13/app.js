@@ -48,3 +48,11 @@ let Name = "naman"
 let name2 = "naman"
 console.log(arr1 === arr2)
 console.log(Name === name2)
+
+// let students = {
+//     Name : "naman",
+//     Name : "",
+// }
+
+// students.class = "12"
+// console.log(students)
