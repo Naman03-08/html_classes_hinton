@@ -72,15 +72,24 @@
 
 // const {rollNumber, Hobbies, city} = std1
 // console.log(std1)
+// arr = ["naman", "pandey", "yash", "raj"]
+// i = 0
+// str = []
+// while(i <= arr.length-1){
+//     str = str + arr[i]
+//     i++
+// }
+// console.log(str)
 
-function table(a){
-    i = 1
-    num = prompt("enter a number")
-    num = parseInt(num)
-    while(i <= 10){
-       console.log(i*num)
-       i++
+let i = 0
+let str = []
+
+function strConcatinate(arr){
+    while(i < arr.length){
+        str = str + arr[i]
+        i++
     }
+    return str;
 }
 
-table()
+console.log(strConcatinate(["naman", "pandey", "yash", "raj"]))
