@@ -88,3 +88,43 @@
 // }
 
 // MultipleGreet(greet, n)
+// console.log("hello")
+// console.log("My name is: ")
+// setTimeout( ()=>{
+//     console.log("pandey")
+// }, 2000)
+// console.log("Naman")
+
+// setTimeout(()=>{
+//     console.log("Hello:")
+// }, 1000)
+// setTimeout(()=>{
+//     console.log("My name is: ");
+// }, 1500)
+// setTimeout(()=>{
+//     console.log("Naman");
+// }, 2000)
+// setTimeout(()=>{
+//     console.log("pandey");
+// }, 2500)
+
+let sum = (a, b) => (
+    a+b
+);
+console.log(sum(2, 4))
+
+let calculator = {
+    sum(a, b){
+        return a+b;
+    }, 
+    sub(a, b){
+        return a-b;
+    }, 
+    mul(a, b){
+        return a*b;
+    }, 
+    divide(a, b){
+        return a/b;
+    }
+}
+
