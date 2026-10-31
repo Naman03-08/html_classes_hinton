@@ -67,13 +67,24 @@
 //   console.log(`the final price is${ice1}`);
 //   break;
 // }
-let multipleGreet = function(func, n){
-    for(let i = 1; i <= n; i++){
-        func()
-    }
-}
-let greet = function(){
-    console.log("naman")
-}
+// let multipleGreet = function(func, n){
+//     for(let i = 1; i <= n; i++){
+//         func()
+//     }
+// }
+// let greet = function(){
+//     console.log("naman")
+// }
 
-multipleGreet(greet, 5)
+// multipleGreet(greet, 5)
+// n = prompt("enter a number")
+// let MultipleGreet = (func, i) => {
+//     for(i = 1; i<=n; i++){
+//         func();
+//     }
+// }
+// let greet = function(){
+//     console.log("naman")
+// }
+
+// MultipleGreet(greet, n)
