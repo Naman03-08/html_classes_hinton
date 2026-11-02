@@ -145,14 +145,46 @@
 //     a+b
 // )
 
-function multipleGreet(func, n){
-    for(let i = 1; i<=n; i++){
-        func()
-    }
-}
+// function multipleGreet(func, n){
+//     for(let i = 1; i<=n; i++){
+//         func()
+//     }
+// }
 
-let greet = ()=>{
-    console.log("naman")
-}
+// let greet = ()=>{
+//     console.log("naman")
+// }
 
-multipleGreet(greet, 5)
+// multipleGreet(greet, 5)
+
+// let arr1 = [1, 2, 3, 4, 5, 6]
+// let finval = arr1.reduce((rel, acc)=>{
+//     return rel+acc
+// })
+// console.log(finval)
+
+// // let check = arr.map((el)=>{
+// //     return el*2
+// // })
+// // console.log(check)
+
+// let arr = [1, 2, 3, 4, 5, 6]
+// let finalValue = arr.reduce((ans, acc)=>{
+//     return ans+acc
+// })
+// console.log(finalValue)
+
+// console.log(...arr)
+
+// let sum = (a, b)=>{
+//     let ans = a+b;
+//     return ans;
+// };
+
+// let new_arr = [sum(2, 3), sum(4, 5), sum(6, 7)];
+// console.log(new_arr)
+
+// let arr = [1, 3, 4, 5, 9, 12]
+// let minimum = Math.min(...arr)
+// let maximum = Math.max(...arr)
+// console.log(maximum - minimum)
