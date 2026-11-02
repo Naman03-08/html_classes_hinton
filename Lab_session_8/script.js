@@ -141,6 +141,18 @@
 
 // let arr = [1, 2, 3, 4, 6 , 7]
 // console.log(...arr)
-let sum = (a, b)=>(
-    a+b
-)
+// let sum = (a, b)=>(
+//     a+b
+// )
+
+function multipleGreet(func, n){
+    for(let i = 1; i<=n; i++){
+        func()
+    }
+}
+
+let greet = ()=>{
+    console.log("naman")
+}
+
+multipleGreet(greet, 5)
