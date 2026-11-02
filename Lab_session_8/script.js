@@ -108,23 +108,39 @@
 //     console.log("pandey");
 // }, 2500)
 
-let sum = (a, b) => (
+// let sum = (a, b) => (
+//     a+b
+// );
+// console.log(sum(2, 4))
+
+// let calculator = {
+//     sum(a, b){
+//         return a+b;
+//     }, 
+//     sub(a, b){
+//         return a-b;
+//     }, 
+//     mul(a, b){
+//         return a*b;
+//     }, 
+//     divide(a, b){
+//         return a/b;
+//     }
+// }
+
+// let arr = ["naman", "pandey"]
+
+// let finalvalue = arr.reduce((res, el)=>(res + el))
+
+// console.log(finalvalue)
+
+// const sum = (a, b) =>(
+//     a+b
+// )
+// console.log(sum(3, 5))
+
+// let arr = [1, 2, 3, 4, 6 , 7]
+// console.log(...arr)
+let sum = (a, b)=>(
     a+b
-);
-console.log(sum(2, 4))
-
-let calculator = {
-    sum(a, b){
-        return a+b;
-    }, 
-    sub(a, b){
-        return a-b;
-    }, 
-    mul(a, b){
-        return a*b;
-    }, 
-    divide(a, b){
-        return a/b;
-    }
-}
-
+)
