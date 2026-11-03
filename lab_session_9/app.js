@@ -53,7 +53,6 @@
 //     }
 //     console.log(sum);
 // }
-
 // fruite(Name)
 
 // question no 7
@@ -109,3 +108,17 @@
 //     n = Pen.price + Notebook.price + Bag.price
 // )
 // console.log(sum())
+
+
+let arr = [5, 1, 3, 2, 4]
+let i = []
+m= 1
+for(let j = 0; j< arr.length - 1; j++){
+    if(arr[m] > arr[m+1]){
+        console.log((i.push(arr[m+1])))
+    }else{
+      console.log(i.push(arr[m]))
+    }
+    m++
+}
+console.log(i)
