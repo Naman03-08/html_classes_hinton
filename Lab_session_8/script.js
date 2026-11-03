@@ -188,3 +188,5 @@
 // let minimum = Math.min(...arr)
 // let maximum = Math.max(...arr)
 // console.log(maximum - minimum)
+
+
