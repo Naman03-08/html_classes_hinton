@@ -43,3 +43,15 @@ function isMember(price, member = false){
 
 isMember(price, member)
 
+
+let fruiet = prompt("enter fruiet name :")
+function fruiets(fruiet){
+    let sum = 0;
+    for(vovels of fruiet){
+        if(vovels == "a" || vovels == "e" || vovels == "i" || vovels == "o" || vovels == "u"){
+            sum++;
+        }
+    }
+    console.log(sum);
+}
+fruiets(fruiet);
