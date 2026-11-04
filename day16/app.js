@@ -1,0 +1,13 @@
+function calculateSum(a){
+    return a*a*a;
+}
+
+console.log(calculateSum(3));
+
+age = prompt("enter youe age: ")
+if(age>= 18){
+    console.log("you are an adult now");
+}else{
+    console.log("you are not an adult now ")
+}
+
