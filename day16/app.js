@@ -98,3 +98,18 @@ function maxNum(newNum){
     return mx;
 }
 console.log(maxNum());
+
+const products = {
+    pen : 10,
+    Notebook : 45,
+    Bag : 500,
+}
+
+let {pen, Notebook, bag} = products
+
+function total(a, b, c){
+    let sum = a+b+c;
+    console.log(sum)
+}
+
+total(products.pen, products.Notebook, products.Bag)
