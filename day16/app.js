@@ -55,3 +55,26 @@ function fruiets(fruiet){
     console.log(sum);
 }
 fruiets(fruiet);
+
+let number = prompt("enter a number: ")
+function square(number){
+    console.log(number**2);
+}
+function cube(number){
+    console.log(number**3);
+}
+
+function squareandcube(number){
+    console.log(square(number) + cube(number));
+}
+squareandcube(number);
+
+function squareandcube(number){
+    let square = number**2;
+    let cube = number ** 3;
+    console.log(square+cube);
+}
+
+squareandcube(number);
+
+
