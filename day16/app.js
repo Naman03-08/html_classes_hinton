@@ -78,3 +78,23 @@ function squareandcube(number){
 squareandcube(number);
 
 
+let number1 = prompt("enter a number: ")
+number1 = parseInt(Math.abs(number1))
+function squareRoot(number1){
+    let sqrt = Math.sqrt(number1);
+    console.log(sqrt);
+}
+
+squareRoot(number1);
+
+let arr = [5, 10, 15, 20, 100];
+let mx = 0;
+function maxNum(newNum){
+    for(let i = 0; i<arr.length; i++){
+    if(arr[i]>mx){
+        mx = arr[i];
+    }
+}
+    return mx;
+}
+console.log(maxNum());
