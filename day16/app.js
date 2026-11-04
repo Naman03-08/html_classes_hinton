@@ -30,3 +30,16 @@ function gradeMarker(marks){
     }
 }
 gradeMarker(90);
+
+let price = prompt("enter a number");
+let member = prompt("are you a member? (Y/N)");
+function isMember(price, member = false){
+    if(member == "Y"){
+        console.log(price*0.9);
+    }else if(member == "N"){
+        console.log(price)
+    }
+}
+
+isMember(price, member)
+
